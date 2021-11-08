@@ -1,0 +1,96 @@
+@media screen and (min-width:770px) and (max-width:992px) {
+    main{
+        padding-left: 0;
+        width: 100%;
+    }
+    #navigation,li{
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #navigation1:hover,#navigation2:hover,li:hover{
+        border-bottom: 1px solid #0065FC;
+        cursor: pointer;
+        border-top: 0;
+    }
+    #search,#activites{
+        padding-left: 1%;
+        width: 99%;
+    }
+    #hebergements{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .optionshebergements{
+        width: 45%;
+        margin: 13px;
+    }
+    #populaires{
+        width: 98%;
+        padding: 0;
+        order: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-right: 0;
+        margin-left: 0;
+        background-color: white;
+    }
+    #titrepopulaires{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 90%;
+        margin-right: 128px;
+        margin-left: 3%;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .iconpopulaires{
+        padding-left: 100%;
+    }
+    .pluspopulaires{
+        width: 30%;
+        height: 155px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    .imgpopulaires {
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: 55%;
+    }
+    .textespopulaires, .etoilespopulaires{
+        font-size: smaller;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #hebergementsmarseille{
+        order: 2;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        background-color: #f2f2f2;
+        border-radius: 0;
+        padding-left: 0;
+    }
+    .titres{
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    #titreactivites{
+        width: 90%;
+    }
+}
+
