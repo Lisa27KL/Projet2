@@ -8,8 +8,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,600;0,700;1,200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/stylemobile.css"/>
         <link rel="stylesheet" href="css/styletab.css"/>
+        <link rel="stylesheet" href="css/stylemobile.css"/>
         <title>Booki</title>
     </head>
     <body>
@@ -26,12 +26,15 @@
         <main>
             <section id="search">
                 <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
+                <p id="infoslieux">En plein centre ville ou en pleine nature</p>
 
                 <article id=searchmarseille>
                     <i id="iconmap" class="fas fa-map-marker-alt"></i><input id="marseille" type="search" value="  Marseille, France" />
-                    <h2 id="buttonsearch"> Rechercher</h2>
-                    <i id="iconsearch" class="fas fa-search"></i>
+                    <a href="#hebergements" > 
+                        <h2 id="buttonsearch">Rechercher</h2>
+                        <i id="iconsearch" class="fas fa-search"></i>
+                    </a>
+                    
                 </article>
 
                 <article id="filtres">
@@ -101,7 +104,7 @@
 
                     <article class="optionshebergements"> 
                         <a href="#">
-                            <img class="imghebergements" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
+                            <img id="imghebergements4" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
                             <h4 class="texteshebergements">Hôtel de la mer</h4>
                             <p class="texteshebergements">Nuit à partir de <strong>46€</strong></p>
                             <p class="infoshebergements">
@@ -116,7 +119,7 @@
 
                     <article class="optionshebergements"> 
                         <a href="#">
-                            <img class="imghebergements" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
+                            <img id="imghebergements5" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
                             <h4 class="texteshebergements">Auberge Le Panier</h4>
                             <p class="texteshebergements">Nuit à partir de <strong>23€</strong></p>
                             <p class="infoshebergements">
@@ -131,7 +134,7 @@
                 
                     <article class="optionshebergements"> 
                         <a href="#">
-                            <img class="imghebergements" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"Hôtel chez Amina" />
+                            <img id="imghebergements6" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"Hôtel chez Amina" />
                             <h4 class="texteshebergements">Hôtel chez Amina</h4>
                             <p class="texteshebergements"> Nuit à partir de <strong>96€</strong></p>
                             <p class="infoshebergements">
@@ -164,7 +167,6 @@
                             </p>
                         </article>
                     </a>
-                                
                     <a href="#" class="pluspopulaires">
                         <img class="imgpopulaires" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="u coeur de l'eau Chambre d'Hôtes" />
                         <article class="infospopulaires">
@@ -179,7 +181,7 @@
                             </p>
                         </article>
                     </a>
-                                    
+            
                     <a href="#" class="pluspopulaires">
                         <img class="imgpopulaires" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tour Bleu et Blanc" />
                         <article class="infospopulaires">
@@ -194,6 +196,7 @@
                             </p>
                         </article>
                     </a>
+                
                 </section>
             </div>
 

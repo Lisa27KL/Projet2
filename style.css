@@ -219,8 +219,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     flex-direction: row;
     flex-wrap: nowrap;
     width: 90%;
-    margin: 15px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
@@ -251,13 +250,31 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     height: 50%;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
+    margin-bottom: 7px;
 }
 
-.imghebergements2{
+#imghebergements4{
     width: 100%;
-    height: 50%;
+    height: 42%;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
+    margin-bottom: 7px;
+}
+
+#imghebergements5{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    margin-bottom: 7px;
+}
+
+#imghebergements6{
+    width: 100%;
+    height: 28%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    margin-bottom: 7px;
 }
 
 .optionshebergements:hover, #blocimgactivites2:hover, #blocimgactivites3:hover, #blocimgactivites5:hover, #blocimgactivites6:hover{
@@ -278,8 +295,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     flex-wrap: wrap;
     align-content: stretch;
     width: 28%;
-    height: 188px;
-    margin: 8px;
+    height: 195px;
     background-color: white;
     box-shadow: 5px 5px 5px 1px #d3d3d3;
     border-radius: 15px;
@@ -312,8 +328,8 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     height: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: baseline;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: #f2f2f2;
     border-radius: 20px;
     padding-left: 20px;
@@ -321,22 +337,22 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     flex: 1;
     margin-left: 20px;
     margin-right: 20px;
-    justify-content: space-evenly;
 }
 
 #titrepopulaires{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 85%;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 .pluspopulaires{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 96%;
+    width: 90%;
     height: 136px;
     background-color: white;
     box-shadow: 5px 5px 5px 1px #d3d3d3;
@@ -422,7 +438,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     display: flex;
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 530px;
+    height: 370px;
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -430,12 +446,12 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
 
 #blocactivites2{
     width: 23%;
-    height: 592px;
+    height: 430px;
     margin: 1%;
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     border-radius: 15px;
 }
@@ -452,7 +468,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     display: flex;
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 250px;   
+    height: 160px;   
     object-fit: cover; 
 }
 
@@ -468,7 +484,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     display: flex;
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 150px;
+    height: 110px;
     object-fit: cover;
 }
 
@@ -490,13 +506,13 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     display: flex;
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 530px;
+    height: 370px;
     object-fit: cover;
 }
 
 #blocactivites4{
     width: 23%;
-    height: 592px;
+    height: 430px;
     margin: 1%;
     margin-top: 0;
     display: flex;
@@ -518,7 +534,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     display: flex;
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 200px;  
+    height: 122px;  
     object-fit: cover;  
 }
 
@@ -526,7 +542,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     display: flex;
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 200px; 
+    height: 145px; 
     object-fit: cover;   
 }
 
@@ -551,9 +567,13 @@ footer{
     align-items: stretch;
     width: 30%;
 }
+.titrenavigofooter{
+    margin-top: 30px;
+}
 
 .menufooter{
     padding: 0;
+    margin-top: 0;
     list-style: none;
     cursor: pointer;
     display: flex;
@@ -561,5 +581,5 @@ footer{
 }
 
 .navfooter{
-    margin: 0;
+    margin-bottom: 10px;
 }
