@@ -1,4 +1,4 @@
-@media screen and (min-width:770px) and (max-width:992px) {
+@media screen and (max-width:992px) {
     main{
         padding-left: 0;
         width: 100%;
@@ -43,9 +43,9 @@
     #titrepopulaires{
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        width: 90%;
-        margin-right: 128px;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-right: 35px;
         margin-left: 3%;
         align-items: stretch;
         justify-content: space-between;
