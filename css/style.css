@@ -247,31 +247,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
 
 .imghebergements{
     width: 100%;
-    height: 50%;
-    border-radius: 10px 10px 0 0;
-    object-fit: cover;
-    margin-bottom: 7px;
-}
-
-#imghebergements4{
-    width: 100%;
-    height: 42%;
-    border-radius: 10px 10px 0 0;
-    object-fit: cover;
-    margin-bottom: 7px;
-}
-
-#imghebergements5{
-    width: 100%;
-    height: 60%;
-    border-radius: 10px 10px 0 0;
-    object-fit: cover;
-    margin-bottom: 7px;
-}
-
-#imghebergements6{
-    width: 100%;
-    height: 28%;
+    height: 100px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
     margin-bottom: 7px;
@@ -295,19 +271,22 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     flex-wrap: wrap;
     align-content: stretch;
     width: 28%;
-    height: 200px;
+    height: 185px;
     background-color: white;
     box-shadow: 5px 5px 5px 1px #d3d3d3;
     border-radius: 15px;
     border: 5px solid white;
     box-sizing: border-box;
 }
-
+.optionshebergements a{
+    width: 100%;
+}
 .texteshebergements{
     margin-top: 0;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
     margin-left: 10px;
     margin-right: 8px;
+    font-size: smaller;
 }
 .prix{
     margin-top: 0;
@@ -317,10 +296,12 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
 
 .etoiles{
     color: #0065FC;
+    font-size: smaller;
 }
 
 .etoilesvides{
     color: #f2f2f2;
+    font-size: smaller;
 }
 
 #populaires{
@@ -354,8 +335,8 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 90%;
-    height: 133px;
+    width: 96%;
+    height: 115px;
     background-color: white;
     box-shadow: 5px 5px 5px 1px #d3d3d3;
     border-radius: 15px;
@@ -365,12 +346,15 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     margin-bottom: 30px
 }
 
+.pluspopulaires a{
+    width: 100%;
+}
 .imgpopulaires{
     display: flex;
     flex-direction: row;
     border-radius: 10px 0 0 10px;
-    width: 140px;
-    height: 97%;
+    width: 120px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -391,7 +375,8 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
 }
 
 .etoilespopulaires{
-    margin-top: 27px;
+    margin-top: 20px;
+    font-size: smaller;
     color: #0065FC;
     margin-left: 15px;
 
@@ -399,6 +384,8 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
 
 .etoilespopulairesvides{
     color: #f2f2f2;
+    margin-top: 20px;
+    font-size: smaller;
 }
 
 #titreactivites{
@@ -551,7 +538,9 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
 .nomsactivites{
     padding-left: 8px;
 }
-
+#imgactivites1 a,#imgactivites2 a,#imgactivites3 a,#imgactivites4 a,#imgactivites5 a,#imgactivites6 a{
+    width: 100%;
+}
 footer{
     display: flex;
     flex-wrap: wrap;

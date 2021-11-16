@@ -115,40 +115,6 @@
         margin-right: 4%;
     }
 
-    #hebergements{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap
-    }
-    #populaires {
-        width: 100%;
-        order: 1;
-        margin: 0;
-        padding: 0;
-        border-radius: 0;
-        background-color: #f2f2f2;
-    }
-    #hebergementsmarseille {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        order: 2;
-        background-color: white;
-        margin: 0;
-        align-content: center;
-    }
-    .titres, #titreactivites{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 90%;
-        font-weight: bold;
-        color: black;
-        margin-left: 4%;
-        margin-top: 35px;
-    }
-
     #titrepopulaires{
         width: 92%;
         margin-left: 4%;
@@ -161,6 +127,22 @@
         padding-left: 0;
     }
 
+    #populaires {
+        width: 100%;
+        order: 1;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        background-color: #f2f2f2;
+    }
+
+    .pluspopulaires{
+        width: 87%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
     .infospopulaires{
         padding-left: 5px;
     }
@@ -168,6 +150,23 @@
     .etoilespopulaires{
         margin-bottom: 0;
         margin-top: 0;
+    }
+
+    #hebergements{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap
+    }
+
+    #hebergementsmarseille {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        background-color: white;
+        margin: 0;
+        align-content: center;
     }
 
     #infoshebergements {
@@ -188,12 +187,21 @@
         height: 165px;
     }
 
-    .pluspopulaires{
-        width: 87%;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: flex-start;
+    .imghebergements{
+        height: 80px;
     }
+
+    .titres, #titreactivites{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 90%;
+        font-weight: bold;
+        color: black;
+        margin-left: 4%;
+        margin-top: 35px;
+    }
+  
     #activites{
         display: flex;
         width: 100%;
@@ -202,7 +210,7 @@
     }
 
     #blocactivites1,#blocactivites2,#blocactivites3,#blocactivites4{
-        width: 90%;
+        width: auto;
         height:auto;
         margin-bottom: 8%;
         margin-left: 4%;
@@ -213,6 +221,7 @@
         width: 338px;
     }
 
+    
     #blocimgactivites2, #blocimgactivites5{
         margin-bottom: 10%;
     }
