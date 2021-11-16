@@ -219,7 +219,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     flex-direction: row;
     flex-wrap: nowrap;
     width: 90%;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     font-weight: bold;
 }
 
@@ -346,6 +346,8 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     width: 85%;
     justify-content: space-between;
     align-items: stretch;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .pluspopulaires{
@@ -353,7 +355,7 @@ button:hover,.pluspopulaires:hover,#blocactivites1:hover, #blocactivites3:hover{
     flex-direction: row;
     flex-wrap: nowrap;
     width: 90%;
-    height: 136px;
+    height: 133px;
     background-color: white;
     box-shadow: 5px 5px 5px 1px #d3d3d3;
     border-radius: 15px;
