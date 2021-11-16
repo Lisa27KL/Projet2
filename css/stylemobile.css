@@ -210,7 +210,7 @@
     }
 
     #blocactivites1,#blocactivites2,#blocactivites3,#blocactivites4{
-        width: auto;
+        width: 87%;
         height:auto;
         margin-bottom: 8%;
         margin-left: 4%;
@@ -218,7 +218,7 @@
     
     #imgactivites1,#imgactivites2,#imgactivites3,#imgactivites4,#imgactivites5,#imgactivites6{
         height: 80px;
-        width: 338px;
+        width: 100%;
     }
 
     

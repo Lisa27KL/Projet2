@@ -43,7 +43,7 @@
         padding: 0;
         order: 1;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
@@ -102,12 +102,11 @@
         width: 94%;
     }
     #titreactivites{
-        width: 90%;
+        width: 93%;
     }
 
     #activites{
-        width: 97%;
-        margin-left: 3%;
+        justify-content: center;
     }
 
     #imgactivites4{
